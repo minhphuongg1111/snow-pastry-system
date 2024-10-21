@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+
+.footer-box h2 {
+    font-size: 1.1rem; 
+    font-weight: 600; 
+    margin-bottom: 1rem;
+}
+
+.footer-box a {
+    color: #868a92;
+    margin-bottom: 1rem;
+}
+
+.footer-box a:hover {
+    color: var(--light-orange-color);
+}
+
+.footer-box form {
+    border-bottom: 1px solid var(--text-color);
+    padding: 10px; 
+    display: flex;
+    align-items: center; 
+    column-gap: 0.5rem;
+}
+
+.footer-box form input { 
+    background: transparent;
+    border: none; 
+    outline: none;
+}
+
+.footer-box form .bxs-envelope { 
+    color: var (--green-color);
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+}
